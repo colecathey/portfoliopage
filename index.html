@@ -1,15 +1,10 @@
----
-layout: post-index
-title: Latest Posts
-description: "Describe this nonsense."
-tags: [Jekyll, theme, themes, responsive, blog, modern]
-comments: false
-image:
-  feature: abstract-1.jpg
-  credit: dargadgetz
-  creditlink: http://www.dargadgetz.com/ios-7-abstract-wallpaper-pack-for-iphone-5-and-ipod-touch-retina/
----
-
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>ColeCathey | Codesmith</title>
+</head>
+<body>
 {% for post in paginator.posts %}
 <article class="hentry">
   <header>
@@ -74,3 +69,5 @@ image:
     Next
   {% endif %}
 </div><!-- /.pagination -->
+</body>
+</html>
